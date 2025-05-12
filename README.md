@@ -1,7 +1,7 @@
 # simple-login-python
 A simple and minimalist login system using customtkinter in python, please read [disclaimer](#disclaimer).
 
-# DISCLAIMER:
+## DISCLAIMER:
 I did **NOT** include any code in this project that collects, steals, or transmits user data without consent. This repository is intended purely for educational and/or legitimate development purposes. If you find anything suspicious or have concerns, feel free to open an issue or contact me.
 
 ## Step-by-step How to Use
