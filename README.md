@@ -1,7 +1,10 @@
 # simple-login-python
-A simple and minimalist login system using customtkinter in python
+A simple and minimalist login system using customtkinter in python, please read [disclaimer](#disclaimer).
 
-# Step-by-step How to Use
+# DISCLAIMER:
+I did **NOT** include any code in this project that collects, steals, or transmits user data without consent. This repository is intended purely for educational and/or legitimate development purposes. If you find anything suspicious or have concerns, feel free to open an issue or contact me.
+
+## Step-by-step How to Use
 ### 1. Python or Code Editor
 Make sure you've got your python or code editor installed.
 > I recommend you to use python 3 or above; for better performance.
