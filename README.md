@@ -1,5 +1,5 @@
 # simple-login-python
-A login system using customtkinter in python
+A simple and minimalist login system using customtkinter in python
 
 # Step-by-step How to Use
 ### 1. Python or Code Editor
@@ -13,5 +13,5 @@ pip install -r requirements.txt
 ```
 It should automatically installing the 'customtkinter' package that we needed, now you'll have to wait for a while to get it done.
 
-### Usage
+### 3. Usage
 Open the 'ctk_login.py' file, and run it. You can customize, or even add more elements to it. It's all by your own at this point.
