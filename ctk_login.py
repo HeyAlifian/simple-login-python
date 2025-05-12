@@ -31,6 +31,7 @@ class App(CTk):
                 self.verify.deselect()
                 self.username.delete(0, 'end')  # This clears the entry field
                 self.password.delete(0, 'end')  # This clears the entry field
-    
-app = App()
-app.mainloop()
+
+if __name__ == "__main__":
+    app = App()
+    app.mainloop()
