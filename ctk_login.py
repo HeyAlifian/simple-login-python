@@ -5,7 +5,7 @@ class App(CTk):
         super().__init__()
         self.geometry("400x200")
         self._set_appearance_mode("Dark".lower())
-        self.title("Login System")
+        self.title("Sign Up System")
         self.resizable(False, False)
 
         self.username = CTkEntry(self, placeholder_text="Enter your username")
