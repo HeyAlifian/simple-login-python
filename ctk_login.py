@@ -1,10 +1,13 @@
+import customtkinter
 from customtkinter import CTk, CTkButton, CTkEntry, CTkCheckBox
 
 class App(CTk):
     def __init__(self):
         super().__init__()
         self.geometry("400x200")
-        self._set_appearance_mode("Dark".lower())
+        customtkinter.set_appearance_mode('dark')
+        customtkinter.set_default_color_theme('green')
+
         self.title("Sign Up System")
         self.resizable(False, False)
 
@@ -27,7 +30,7 @@ class App(CTk):
             if self.verify.get() == 0:
                 print("Please verify that you are a human.")
             else:
-                print(f"Signed up as {self.username.get()}")
+                print(f"A user signed up as {self.username.get()}")
                 self.verify.deselect()
                 self.username.delete(0, 'end')  # This clears the entry field
                 self.password.delete(0, 'end')  # This clears the entry field
